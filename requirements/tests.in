@@ -1,0 +1,12 @@
+-r ./dev.txt
+
+betamax
+coverage
+factory-boy
+fakeredis
+pytest
+pytest-cov
+pytest-django
+pytest-forked
+pytest-xdist
+tblib

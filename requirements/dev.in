@@ -1,0 +1,8 @@
+-r ./base.txt
+
+black
+django-debug-toolbar
+ipdb
+ipython
+pywatchman
+pip-tools
