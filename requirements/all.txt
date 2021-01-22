@@ -6,181 +6,98 @@
 #
 absl-py==0.11.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   tensorboard
     #   tensorflow
 affinegap==1.11
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 alabaster==0.7.12
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 amqp==5.0.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   kombu
+    # via kombu
 apipkg==1.5
-    # via
-    #   -r ./tests.txt
-    #   execnet
+    # via execnet
 appdirs==1.4.4
-    # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
-    #   black
+    # via black
 astunparse==1.6.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 async-generator==1.10
-    # via
-    #   -r ./docs.txt
-    #   nbclient
+    # via nbclient
 attrs==20.3.0
     # via
-    #   -r ./docs.txt
-    #   -r ./tests.txt
     #   jsonschema
     #   pytest
 babel==2.9.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   django-phonenumber-field
     #   sphinx
 backcall==0.2.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   ipython
+    # via ipython
 beautifulsoup4==4.9.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   feedfinder2
     #   newspaper3k
 betamax==0.8.1
-    # via -r ./tests.txt
+    # via -r ./tests.req
 billiard==3.6.3.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   celery
+    # via celery
 black==20.8b1
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
 bleach==3.2.1
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 blinker==1.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 blis==0.7.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   thinc
 btrees==4.7.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   dedupe
     #   zope.index
 cachetools==4.2.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   google-auth
     #   textacy
 catalogue==1.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   thinc
 categorical-distance==1.9
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 celery==5.0.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   flower
 certifi==2020.12.5
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   requests
     #   sentry-sdk
 cffi==1.14.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   cryptography
     #   persistent
 chardet==4.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   pdfminer.six
     #   readability-lxml
     #   requests
 click-didyoumean==0.0.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   celery
+    # via celery
 click-plugins==1.1.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   celery
+    # via celery
 click-repl==0.1.6
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   celery
+    # via celery
 click==7.1.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   black
     #   celery
     #   click-didyoumean
@@ -190,198 +107,128 @@ click==7.1.2
     #   nltk
     #   pip-tools
 commonmark==0.9.1
-    # via
-    #   -r ./docs.txt
-    #   recommonmark
+    # via recommonmark
 coreapi==2.3.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   drf-yasg
 coreschema==0.0.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   coreapi
     #   drf-yasg
 coverage==5.3.1
     # via
-    #   -r ./tests.txt
+    #   -r ./tests.req
     #   pytest-cov
 cryptography==3.3.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   pdfminer.six
     #   social-auth-core
 cssselect==1.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   newspaper3k
     #   readability-lxml
 cymem==2.0.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   preshed
     #   spacy
     #   thinc
 cytoolz==0.11.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   textacy
+    # via textacy
 dataclasses==0.8
-    # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
-    #   black
+    # via black
 dateparser==1.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 datetime-distance==0.1.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe-variable-datetime
+    # via dedupe-variable-datetime
 decorator==4.4.2
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   ipython
     #   networkx
     #   traitlets
 dedupe-hcluster==0.3.8
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 dedupe-variable-datetime==0.1.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 dedupe==2.0.6
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   dedupe-variable-datetime
 defusedxml==0.6.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   nbconvert
     #   python3-openid
     #   social-auth-core
 django-admin-rangefilter==0.6.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-cors-headers==3.6.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-debug-toolbar==3.2
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
 django-environ==0.4.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-extensions==3.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-filter==2.4.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-formtools==2.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   django-two-factor-auth
+    # via django-two-factor-auth
 django-guardian==2.3.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-hashid-field==3.1.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-jet==1.0.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-otp==1.0.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   django-two-factor-auth
+    # via django-two-factor-auth
 django-pgviews==0.5.7
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-phonenumber-field==3.0.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   django-two-factor-auth
+    # via django-two-factor-auth
 django-rest-framework==0.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-reversion==3.0.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-treebeard==4.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django-two-factor-auth==1.13
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 django==2.2.17
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   django-cors-headers
     #   django-debug-toolbar
     #   django-filter
@@ -399,204 +246,109 @@ django==2.2.17
     #   drf-yasg
 djangorestframework==3.12.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   django-rest-framework
     #   drf-nested-routers
     #   drf-yasg
 dnspython==2.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 docutils==0.16
     # via
-    #   -r ./docs.txt
     #   nbsphinx
     #   recommonmark
     #   sphinx
 doublemetaphone==0.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 drf-nested-routers==0.92.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 drf-yasg==1.20.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 entrypoints==0.3
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 et-xmlfile==1.0.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   openpyxl
+    # via openpyxl
 execnet==1.7.1
-    # via
-    #   -r ./tests.txt
-    #   pytest-xdist
+    # via pytest-xdist
 factory-boy==3.2.0
-    # via -r ./tests.txt
+    # via -r ./tests.req
 fake-useragent==0.1.11
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 faker==5.6.0
-    # via
-    #   -r ./tests.txt
-    #   factory-boy
+    # via factory-boy
 fakeredis==1.4.5
-    # via -r ./tests.txt
+    # via -r ./tests.req
 fastcluster==1.1.26
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 feedfinder2==0.0.4
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 feedparser==6.0.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 filelock==3.0.12
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tldextract
+    # via tldextract
 flask==1.1.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 flatbuffers==1.12
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 flower==0.9.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 ftfy==5.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 future==0.18.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   datetime-distance
     #   dedupe-variable-datetime
     #   rlr
 gast==0.3.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 gensim==3.8.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 google-auth-oauthlib==0.4.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorboard
+    # via tensorboard
 google-auth==1.24.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   google-auth-oauthlib
     #   tensorboard
 google-pasta==0.2.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 grpcio==1.32.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   tensorboard
     #   tensorflow
 h5py==2.10.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 hashids==1.3.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   django-hashid-field
+    # via django-hashid-field
 haversine==2.3.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 highered==0.2.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 humanize==3.2.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   flower
+    # via flower
 idna==2.10
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   requests
     #   tldextract
 imagesize==1.2.0
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 importlib-metadata==3.4.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   catalogue
     #   jsonschema
     #   kombu
@@ -604,83 +356,42 @@ importlib-metadata==3.4.0
     #   pluggy
     #   pytest
 inflection==0.5.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   drf-yasg
+    # via drf-yasg
 iniconfig==1.1.1
-    # via
-    #   -r ./tests.txt
-    #   pytest
+    # via pytest
 ipdb==0.13.4
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
 ipykernel==5.4.3
-    # via -r ./docs.txt
+    # via -r ./docs.req
 ipython-genutils==0.2.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
     #   nbformat
     #   traitlets
 ipython==7.16.1
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
+    #   -r ./docs.req
     #   ipdb
     #   ipykernel
 isodate==0.6.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   rdflib
+    # via rdflib
 itsdangerous==1.1.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   flask
+    # via flask
 itypes==1.2.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   coreapi
+    # via coreapi
 jdcal==1.4.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   openpyxl
+    # via openpyxl
 jedi==0.18.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   ipython
+    # via ipython
 jellyfish==0.8.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   textacy
+    # via textacy
 jieba3k==0.35.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 jinja2==2.11.2
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   coreschema
     #   flask
     #   nbconvert
@@ -688,135 +399,82 @@ jinja2==2.11.2
     #   sphinx
 joblib==1.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   nltk
     #   scikit-learn
     #   textacy
 jsonschema==3.2.0
-    # via
-    #   -r ./docs.txt
-    #   nbformat
+    # via nbformat
 jupyter-client==6.1.11
     # via
-    #   -r ./docs.txt
     #   ipykernel
     #   nbclient
 jupyter-core==4.7.0
     # via
-    #   -r ./docs.txt
     #   jupyter-client
     #   nbconvert
     #   nbformat
 jupyterlab-pygments==0.1.2
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 keras-preprocessing==1.1.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 kombu==5.0.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   celery
+    # via celery
 langdetect==1.0.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 levenshtein-search==1.4.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 lxml==4.6.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   newspaper3k
     #   readability-lxml
 markdown==3.3.3
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   sphinx-markdown-tables
     #   tensorboard
 markupsafe==1.1.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   jinja2
+    # via jinja2
 mistune==0.8.4
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 murmurhash==1.0.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   preshed
     #   spacy
     #   thinc
 mypy-extensions==0.4.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
-    #   black
+    # via black
 nbclient==0.5.1
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 nbconvert==6.0.7
-    # via
-    #   -r ./docs.txt
-    #   nbsphinx
+    # via nbsphinx
 nbformat==5.1.2
     # via
-    #   -r ./docs.txt
     #   nbclient
     #   nbconvert
     #   nbsphinx
 nbsphinx==0.8.0
-    # via -r ./docs.txt
+    # via -r ./docs.req
 nest-asyncio==1.4.3
-    # via
-    #   -r ./docs.txt
-    #   nbclient
+    # via nbclient
 networkx==2.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   textacy
 newspaper3k==0.2.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 nltk==3.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ././././nlp.in
+    #   -r ./././nlp.in
     #   newspaper3k
 numpy==1.19.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   blis
     #   categorical-distance
     #   dedupe
@@ -841,259 +499,146 @@ numpy==1.19.5
     #   thinc
 oauthlib==3.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   requests-oauthlib
     #   social-auth-core
 openpyxl==3.0.6
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 opt-einsum==3.3.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 packaging==20.8
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   bleach
     #   drf-yasg
     #   pytest
     #   sphinx
 pandocfilters==1.4.3
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 parso==0.8.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   jedi
+    # via jedi
 pathspec==0.8.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
-    #   black
+    # via black
 pdfminer.six==20201018
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 persistent==4.6.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   btrees
     #   zope.index
 pexpect==4.8.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   ipython
+    # via ipython
 phonenumberslite==8.12.16
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 pickleshare==0.7.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   ipython
+    # via ipython
 pillow==8.1.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 pip-tools==5.5.0
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
 plac==1.1.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   thinc
 pluggy==0.13.1
-    # via
-    #   -r ./tests.txt
-    #   pytest
+    # via pytest
 preshed==3.0.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   thinc
 prometheus-client==0.8.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   flower
+    # via flower
 prompt-toolkit==3.0.10
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   click-repl
     #   ipython
 protobuf==3.14.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   tensorboard
     #   tensorflow
     #   tensorflow-hub
 psycopg2-binary==2.8.6
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 ptyprocess==0.7.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
-    #   pexpect
+    # via pexpect
 py==1.10.0
     # via
-    #   -r ./tests.txt
     #   pytest
     #   pytest-forked
 pyasn1-modules==0.2.8
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   google-auth
+    # via google-auth
 pyasn1==0.4.8
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   pyasn1-modules
     #   rsa
 pycparser==2.20
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   cffi
+    # via cffi
 pyemd==0.5.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   textacy
+    # via textacy
 pygments==2.7.4
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
     #   ipython
     #   jupyterlab-pygments
     #   nbconvert
     #   sphinx
 pyhacrf-datamade==0.2.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   highered
+    # via highered
 pyjwt==2.0.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   social-auth-core
+    # via social-auth-core
 pylbfgs==0.2.0.13
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   pyhacrf-datamade
     #   rlr
 pyparsing==2.4.7
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   packaging
     #   rdflib
 pyphen==0.10.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   textacy
+    # via textacy
 pyrsistent==0.17.3
-    # via
-    #   -r ./docs.txt
-    #   jsonschema
+    # via jsonschema
 pysocks==1.7.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   requests
 pytest-cov==2.10.1
-    # via -r ./tests.txt
+    # via -r ./tests.req
 pytest-django==4.1.0
-    # via -r ./tests.txt
+    # via -r ./tests.req
 pytest-forked==1.3.0
     # via
-    #   -r ./tests.txt
+    #   -r ./tests.req
     #   pytest-xdist
 pytest-xdist==2.2.0
-    # via -r ./tests.txt
+    # via -r ./tests.req
 pytest==6.2.1
     # via
-    #   -r ./tests.txt
+    #   -r ./tests.req
     #   pytest-cov
     #   pytest-django
     #   pytest-forked
     #   pytest-xdist
 python-dateutil==2.8.1
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   dateparser
     #   datetime-distance
     #   faker
     #   jupyter-client
     #   newspaper3k
 python3-openid==3.2.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   social-auth-core
+    # via social-auth-core
 pytz==2020.5
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   babel
     #   celery
     #   dateparser
@@ -1102,72 +647,44 @@ pytz==2020.5
     #   tzlocal
 pywatchman==1.4.1
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
+    #   -r ././dev.req
+    #   -r ./dev.req
 pyyaml==5.3.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 pyzmq==21.0.0
-    # via
-    #   -r ./docs.txt
-    #   jupyter-client
+    # via jupyter-client
 qrcode==6.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   django-two-factor-auth
+    # via django-two-factor-auth
 rdflib==5.0.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   sparqlwrapper
+    # via sparqlwrapper
 readability-lxml==0.8.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 recommonmark==0.7.1
-    # via -r ./docs.txt
+    # via -r ./docs.req
 redis==3.5.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   fakeredis
 regex==2020.11.13
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   black
     #   dateparser
     #   nltk
     #   syntok
 requests-file==1.5.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tldextract
+    # via tldextract
 requests-oauthlib==1.3.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   google-auth-oauthlib
     #   social-auth-core
     #   tweepy
 requests[socks]==2.25.1
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   betamax
     #   coreapi
     #   feedfinder2
@@ -1182,64 +699,30 @@ requests[socks]==2.25.1
     #   tldextract
     #   tweepy
 rlr==2.4.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 rsa==4.7
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   google-auth
+    # via google-auth
 ruamel.yaml.clib==0.2.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   ruamel.yaml
+    # via ruamel.yaml
 ruamel.yaml==0.16.12
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   drf-yasg
+    # via drf-yasg
 scikit-learn==0.23.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   sklearn
     #   textacy
 scipy==1.5.4
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   gensim
     #   scikit-learn
     #   textacy
 sentry-sdk==0.19.5
-    # via -r ./prod.txt
+    # via -r ./prod.req
 sgmllib3k==1.0.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   feedparser
+    # via feedparser
 simplecosine==1.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 six==1.15.0
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   absl-py
     #   astunparse
     #   bleach
@@ -1270,216 +753,126 @@ six==1.15.0
     #   zope.index
 sklearn==0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 smart-open==4.1.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   gensim
+    # via gensim
 snowballstemmer==2.0.0
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 social-auth-app-django==4.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 social-auth-core[azuread]==4.0.3
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   social-auth-app-django
 sortedcontainers==2.3.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   fakeredis
     #   pdfminer.six
 soupsieve==2.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   beautifulsoup4
+    # via beautifulsoup4
 spacy==2.3.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   textacy
+    # via textacy
 sparqlwrapper==1.8.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 sphinx-markdown-tables==0.0.15
-    # via -r ./docs.txt
+    # via -r ./docs.req
 sphinx-rtd-theme==0.5.1
-    # via -r ./docs.txt
+    # via -r ./docs.req
 sphinx==3.4.3
     # via
-    #   -r ./docs.txt
+    #   -r ./docs.req
     #   nbsphinx
     #   recommonmark
     #   sphinx-rtd-theme
 sphinxcontrib-applehelp==1.0.2
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sphinxcontrib-devhelp==1.0.2
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sphinxcontrib-htmlhelp==1.0.3
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sphinxcontrib-jsmath==1.0.1
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sphinxcontrib-qthelp==1.0.3
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sphinxcontrib-serializinghtml==1.1.4
-    # via
-    #   -r ./docs.txt
-    #   sphinx
+    # via sphinx
 sqlparse==0.4.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   django
     #   django-debug-toolbar
 srsly==1.0.5
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   textacy
     #   thinc
 syntok==1.3.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 tblib==1.7.0
-    # via -r ./tests.txt
+    # via -r ./tests.req
 tensorboard-plugin-wit==1.7.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorboard
+    # via tensorboard
 tensorboard==2.4.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 tensorflow-estimator==2.4.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 tensorflow-hub==0.11.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ././././nlp.in
+    #   -r ./././nlp.in
 tensorflow==2.4.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ././././nlp.in
+    #   -r ./././nlp.in
 termcolor==1.1.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 testpath==0.4.4
-    # via
-    #   -r ./docs.txt
-    #   nbconvert
+    # via nbconvert
 text-unidecode==1.3
-    # via
-    #   -r ./tests.txt
-    #   faker
+    # via faker
 textacy==0.10.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 thinc==7.4.5
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   spacy
+    # via spacy
 threadpoolctl==2.1.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   scikit-learn
+    # via scikit-learn
 tinysegmenter==0.3
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   newspaper3k
+    # via newspaper3k
 tldextract==3.1.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   newspaper3k
 toml==0.10.2
     # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
     #   black
     #   pytest
 toolz==0.11.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   cytoolz
+    # via cytoolz
 tornado==6.1
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   flower
     #   ipykernel
     #   jupyter-client
 tqdm==4.56.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
     #   nltk
     #   spacy
     #   textacy
     #   thinc
 traitlets==4.3.3
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./tests.txt
     #   ipykernel
     #   ipython
     #   jupyter-client
@@ -1490,117 +883,63 @@ traitlets==4.3.3
     #   nbsphinx
 tweepy==3.10.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 typed-ast==1.4.2
-    # via
-    #   -r ./dev.txt
-    #   -r ./tests.txt
-    #   black
+    # via black
 typing-extensions==3.7.4.3
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   black
     #   dedupe
     #   importlib-metadata
     #   tensorflow
 tzlocal==2.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dateparser
+    # via dateparser
 uritemplate==3.0.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   coreapi
     #   drf-yasg
 urllib3==1.26.2
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   requests
     #   sentry-sdk
 uwsgi==2.0.19.1
-    # via -r ./prod.txt
+    # via -r ./prod.req
 vine==5.0.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   amqp
     #   celery
 wasabi==0.8.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   spacy
     #   thinc
 wcwidth==0.2.5
     # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   ftfy
     #   prompt-toolkit
 webencodings==0.5.1
-    # via
-    #   -r ./docs.txt
-    #   bleach
+    # via bleach
 werkzeug==1.0.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   flask
     #   tensorboard
 wheel==0.36.2
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   astunparse
     #   tensorboard
     #   tensorflow
 wordsegment==1.3.1
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
+    #   -r ./././base.req
+    #   -r ././base.req
 wrapt==1.12.1
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   tensorflow
+    # via tensorflow
 zipp==3.4.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./docs.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   importlib-metadata
+    # via importlib-metadata
 zope.index==5.0.0
-    # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
-    #   dedupe
+    # via dedupe
 zope.interface==5.2.0
     # via
-    #   -r ./dev.txt
-    #   -r ./prod.txt
-    #   -r ./tests.txt
     #   btrees
     #   persistent
     #   zope.index
