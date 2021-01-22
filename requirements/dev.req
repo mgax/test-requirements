@@ -1,4 +1,4 @@
--r ./base.txt
+-r ./base.req
 
 black
 django-debug-toolbar
