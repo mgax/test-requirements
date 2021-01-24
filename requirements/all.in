@@ -1,4 +1,0 @@
--r ./dev.txt
--r ./prod.txt
--r ./tests.txt
--r ./docs.txt
