@@ -13,4 +13,10 @@ COPY requirements/nlp.txt requirements/
 RUN pip install --no-cache-dir -r requirements/nlp.txt
 
 COPY requirements requirements
-RUN pip install --no-cache-dir -r requirements/tests.txt
+RUN pip install --no-cache-dir \
+  -r requirements/nlp.txt \
+  -r requirements/base.txt \
+  -r requirements/dev.txt \
+  -r requirements/prod.txt \
+  -r requirements/tests.txt \
+  -r requirements/docs.txt
