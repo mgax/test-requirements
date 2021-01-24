@@ -1,4 +1,4 @@
--r ./base.req
+-r ./base.txt
 
 sentry-sdk
 uWSGI

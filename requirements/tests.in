@@ -1,4 +1,4 @@
--r ./dev.req
+-r ./dev.txt
 
 betamax
 coverage
