@@ -9,6 +9,8 @@ RUN runDeps="netcat libpq-dev gettext wget tar build-essential gcc" \
 RUN mkdir -p /app/requirements
 WORKDIR /app
 
+RUN pip install -U setuptools pip
+
 COPY requirements/nlp.txt requirements/
 RUN pip install --no-cache-dir -r requirements/nlp.txt
 
