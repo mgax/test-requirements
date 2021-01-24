@@ -93,7 +93,7 @@ six==1.15.0
     #   protobuf
     #   tensorboard
     #   tensorflow
-tensorboard-plugin-wit==1.7.0
+tensorboard-plugin-wit==1.8.0
     # via tensorboard
 tensorboard==2.4.1
     # via tensorflow
@@ -101,7 +101,7 @@ tensorflow-estimator==2.4.0
     # via tensorflow
 tensorflow-hub==0.11.0
     # via -r nlp.in
-tensorflow==2.4.0
+tensorflow==2.4.1
     # via -r nlp.in
 termcolor==1.1.0
     # via tensorflow

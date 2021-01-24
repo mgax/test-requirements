@@ -4,19 +4,10 @@
 #
 #    pip-compile base.in
 #
-absl-py==0.11.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
-    #   tensorflow
 affinegap==1.11
     # via dedupe
-amqp==5.0.2
+amqp==5.0.3
     # via kombu
-astunparse==1.6.3
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 babel==2.9.0
     # via django-phonenumber-field
 beautifulsoup4==4.9.3
@@ -38,9 +29,8 @@ btrees==4.7.2
     #   zope.index
 cachetools==4.2.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   -r base.in
-    #   google-auth
     #   textacy
 catalogue==1.0.0
     # via
@@ -54,7 +44,7 @@ celery==5.0.5
     #   flower
 certifi==2020.12.5
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   requests
 cffi==1.14.4
     # via
@@ -62,7 +52,7 @@ cffi==1.14.4
     #   persistent
 chardet==4.0.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   pdfminer.six
     #   readability-lxml
     #   requests
@@ -74,7 +64,7 @@ click-repl==0.1.6
     # via celery
 click==7.1.2
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   celery
     #   click-didyoumean
     #   click-plugins
@@ -122,7 +112,7 @@ defusedxml==0.6.0
     # via
     #   python3-openid
     #   social-auth-core
-django-admin-rangefilter==0.6.3
+django-admin-rangefilter==0.6.4
     # via -r base.in
 django-cors-headers==3.6.0
     # via -r base.in
@@ -148,7 +138,7 @@ django-phonenumber-field==3.0.1
     # via django-two-factor-auth
 django-rest-framework==0.1.0
     # via -r base.in
-django-reversion==3.0.8
+django-reversion==3.0.9
     # via -r base.in
 django-treebeard==4.4
     # via -r base.in
@@ -188,7 +178,7 @@ et-xmlfile==1.0.1
     # via openpyxl
 fake-useragent==0.1.11
     # via -r base.in
-fastcluster==1.1.26
+fastcluster==1.1.27
     # via dedupe
 feedfinder2==0.0.4
     # via newspaper3k
@@ -198,10 +188,6 @@ filelock==3.0.12
     # via tldextract
 flask==1.1.2
     # via -r base.in
-flatbuffers==1.12
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 flower==0.9.5
     # via -r base.in
 ftfy==5.8
@@ -211,34 +197,8 @@ future==0.18.2
     #   datetime-distance
     #   dedupe-variable-datetime
     #   rlr
-gast==0.3.3
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 gensim==3.8.3
     # via -r base.in
-google-auth-oauthlib==0.4.2
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
-google-auth==1.24.0
-    # via
-    #   -r ./nlp.txt
-    #   google-auth-oauthlib
-    #   tensorboard
-google-pasta==0.2.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
-grpcio==1.32.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
-    #   tensorflow
-h5py==2.10.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 hashids==1.3.1
     # via django-hashid-field
 haversine==2.3.0
@@ -249,16 +209,15 @@ humanize==3.2.0
     # via flower
 idna==2.10
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   -r base.in
     #   requests
     #   tldextract
 importlib-metadata==3.4.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   catalogue
     #   kombu
-    #   markdown
 inflection==0.5.1
     # via drf-yasg
 isodate==0.6.0
@@ -279,14 +238,10 @@ jinja2==2.11.2
     #   flask
 joblib==1.0.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   nltk
     #   scikit-learn
     #   textacy
-keras-preprocessing==1.1.2
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 kombu==5.0.2
     # via celery
 langdetect==1.0.8
@@ -298,10 +253,6 @@ lxml==4.6.2
     #   -r base.in
     #   newspaper3k
     #   readability-lxml
-markdown==3.3.3
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
 markupsafe==1.1.1
     # via jinja2
 murmurhash==1.0.5
@@ -317,21 +268,18 @@ newspaper3k==0.2.8
     # via -r base.in
 nltk==3.5
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   newspaper3k
 numpy==1.19.5
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   blis
     #   categorical-distance
     #   dedupe
     #   dedupe-hcluster
     #   fastcluster
     #   gensim
-    #   h5py
     #   highered
-    #   keras-preprocessing
-    #   opt-einsum
     #   pyemd
     #   pylbfgs
     #   rlr
@@ -339,22 +287,15 @@ numpy==1.19.5
     #   scipy
     #   simplecosine
     #   spacy
-    #   tensorboard
-    #   tensorflow
-    #   tensorflow-hub
     #   textacy
     #   thinc
 oauthlib==3.1.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   requests-oauthlib
     #   social-auth-core
 openpyxl==3.0.6
     # via -r base.in
-opt-einsum==3.3.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 packaging==20.8
     # via drf-yasg
 pdfminer.six==20201018
@@ -377,32 +318,17 @@ preshed==3.0.5
     #   thinc
 prometheus-client==0.8.0
     # via flower
-prompt-toolkit==3.0.10
+prompt-toolkit==3.0.14
     # via click-repl
-protobuf==3.14.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
-    #   tensorflow
-    #   tensorflow-hub
 psycopg2-binary==2.8.6
     # via -r base.in
-pyasn1-modules==0.2.8
-    # via
-    #   -r ./nlp.txt
-    #   google-auth
-pyasn1==0.4.8
-    # via
-    #   -r ./nlp.txt
-    #   pyasn1-modules
-    #   rsa
 pycparser==2.20
     # via cffi
 pyemd==0.5.1
     # via textacy
 pyhacrf-datamade==0.2.5
     # via highered
-pyjwt==2.0.0
+pyjwt==2.0.1
     # via social-auth-core
 pylbfgs==0.2.0.13
     # via
@@ -434,7 +360,7 @@ pytz==2020.5
     #   django
     #   flower
     #   tzlocal
-pyyaml==5.3.1
+pyyaml==5.4.1
     # via newspaper3k
 qrcode==6.1
     # via django-two-factor-auth
@@ -446,7 +372,7 @@ redis==3.5.3
     # via -r base.in
 regex==2020.11.13
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   dateparser
     #   nltk
     #   syntok
@@ -454,13 +380,12 @@ requests-file==1.5.1
     # via tldextract
 requests-oauthlib==1.3.0
     # via
-    #   -r ./nlp.txt
-    #   google-auth-oauthlib
+    #   -c ./nlp.txt
     #   social-auth-core
     #   tweepy
 requests[socks]==2.25.1
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   -r base.in
     #   coreapi
     #   feedfinder2
@@ -469,16 +394,11 @@ requests[socks]==2.25.1
     #   requests-oauthlib
     #   social-auth-core
     #   spacy
-    #   tensorboard
     #   textacy
     #   tldextract
     #   tweepy
 rlr==2.4.5
     # via dedupe
-rsa==4.7
-    # via
-    #   -r ./nlp.txt
-    #   google-auth
 ruamel.yaml.clib==0.2.2
     # via ruamel.yaml
 ruamel.yaml==0.16.12
@@ -498,34 +418,24 @@ simplecosine==1.2
     # via dedupe
 six==1.15.0
     # via
-    #   -r ./nlp.txt
-    #   absl-py
-    #   astunparse
+    #   -c ./nlp.txt
     #   click-repl
     #   cryptography
     #   django-pgviews
     #   feedfinder2
     #   gensim
-    #   google-auth
-    #   google-pasta
-    #   grpcio
-    #   h5py
     #   isodate
-    #   keras-preprocessing
     #   langdetect
-    #   protobuf
     #   python-dateutil
     #   qrcode
     #   rdflib
     #   requests-file
     #   social-auth-app-django
-    #   tensorboard
-    #   tensorflow
     #   tweepy
     #   zope.index
 sklearn==0.0
     # via -r base.in
-smart-open==4.1.0
+smart-open==4.1.2
     # via gensim
 social-auth-app-django==4.0.0
     # via -r base.in
@@ -550,26 +460,6 @@ srsly==1.0.5
     #   thinc
 syntok==1.3.1
     # via -r base.in
-tensorboard-plugin-wit==1.7.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorboard
-tensorboard==2.4.1
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
-tensorflow-estimator==2.4.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
-tensorflow-hub==0.11.0
-    # via -r ./nlp.txt
-tensorflow==2.4.0
-    # via -r ./nlp.txt
-termcolor==1.1.0
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 textacy==0.10.1
     # via -r base.in
 thinc==7.4.5
@@ -588,7 +478,7 @@ tornado==6.1
     # via flower
 tqdm==4.56.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   -r base.in
     #   nltk
     #   spacy
@@ -598,10 +488,9 @@ tweepy==3.10.0
     # via -r base.in
 typing-extensions==3.7.4.3
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   dedupe
     #   importlib-metadata
-    #   tensorflow
 tzlocal==2.1
     # via dateparser
 uritemplate==3.0.1
@@ -610,7 +499,7 @@ uritemplate==3.0.1
     #   drf-yasg
 urllib3==1.26.2
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   requests
 vine==5.0.0
     # via
@@ -626,24 +515,13 @@ wcwidth==0.2.5
     #   prompt-toolkit
 werkzeug==1.0.1
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   flask
-    #   tensorboard
-wheel==0.36.2
-    # via
-    #   -r ./nlp.txt
-    #   astunparse
-    #   tensorboard
-    #   tensorflow
 wordsegment==1.3.1
     # via -r base.in
-wrapt==1.12.1
-    # via
-    #   -r ./nlp.txt
-    #   tensorflow
 zipp==3.4.0
     # via
-    #   -r ./nlp.txt
+    #   -c ./nlp.txt
     #   importlib-metadata
 zope.index==5.0.0
     # via dedupe

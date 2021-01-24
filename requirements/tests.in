@@ -1,4 +1,4 @@
--r ./dev.txt
+-c ./dev.txt
 
 betamax
 coverage

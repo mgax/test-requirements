@@ -1,4 +1,4 @@
--r ./nlp.txt
+-c ./nlp.txt
 
 beautifulsoup4
 blinker

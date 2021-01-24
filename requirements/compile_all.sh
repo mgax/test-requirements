@@ -9,4 +9,3 @@ pip-compile dev.in
 pip-compile tests.in
 pip-compile prod.in
 pip-compile docs.in
-pip-compile all.in
