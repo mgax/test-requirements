@@ -50,6 +50,7 @@ nltk==3.5
     # via -r nlp.in
 numpy==1.19.5
     # via
+    #   -r nlp.in
     #   h5py
     #   keras-preprocessing
     #   opt-einsum
