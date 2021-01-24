@@ -26,7 +26,7 @@ drf-nested-routers
 drf-yasg
 fake-useragent
 flask
-flower<0.9.7
+flower
 ftfy
 gensim
 idna
