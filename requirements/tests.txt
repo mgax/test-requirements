@@ -9,23 +9,23 @@ apipkg==1.5
 attrs==20.3.0
     # via pytest
 betamax==0.8.1
-    # via -r tests.in
+    # via -r requirements/tests.in
 certifi==2020.12.5
     # via requests
 chardet==4.0.0
     # via requests
 coverage==5.3.1
     # via
-    #   -r tests.in
+    #   -r requirements/tests.in
     #   pytest-cov
 execnet==1.7.1
     # via pytest-xdist
 factory-boy==3.2.0
-    # via -r tests.in
+    # via -r requirements/tests.in
 faker==5.6.5
     # via factory-boy
 fakeredis==1.4.5
-    # via -r tests.in
+    # via -r requirements/tests.in
 idna==2.10
     # via requests
 importlib-metadata==3.4.0
@@ -45,18 +45,18 @@ py==1.10.0
 pyparsing==2.4.7
     # via packaging
 pytest-cov==2.11.1
-    # via -r tests.in
+    # via -r requirements/tests.in
 pytest-django==4.1.0
-    # via -r tests.in
+    # via -r requirements/tests.in
 pytest-forked==1.3.0
     # via
-    #   -r tests.in
+    #   -r requirements/tests.in
     #   pytest-xdist
 pytest-xdist==2.2.0
-    # via -r tests.in
-pytest==6.2.1
+    # via -r requirements/tests.in
+pytest==6.2.2
     # via
-    #   -r tests.in
+    #   -r requirements/tests.in
     #   pytest-cov
     #   pytest-django
     #   pytest-forked
@@ -69,22 +69,22 @@ requests==2.25.1
     # via betamax
 six==1.15.0
     # via
-    #   -c ./dev.txt
+    #   -c requirements/./dev.txt
     #   fakeredis
     #   python-dateutil
 sortedcontainers==2.3.0
     # via fakeredis
 tblib==1.7.0
-    # via -r tests.in
+    # via -r requirements/tests.in
 text-unidecode==1.3
     # via faker
 toml==0.10.2
     # via
-    #   -c ./dev.txt
+    #   -c requirements/./dev.txt
     #   pytest
 typing-extensions==3.7.4.3
     # via
-    #   -c ./dev.txt
+    #   -c requirements/./dev.txt
     #   importlib-metadata
 urllib3==1.26.2
     # via requests
