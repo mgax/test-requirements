@@ -1,4 +1,0 @@
-nltk
-tensorflow-hub
-tensorflow
-numpy>=1.19,<1.20 # numpy 1.20 requires py37

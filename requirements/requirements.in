@@ -1,5 +1,3 @@
--c ./nlp.txt
-
 beautifulsoup4
 blinker
 cachetools
@@ -34,6 +32,8 @@ langdetect
 lxml
 networkx
 newspaper3k
+nltk
+numpy
 openpyxl
 pdfminer.six
 phonenumberslite
@@ -43,13 +43,17 @@ python-dateutil
 readability-lxml
 redis
 requests
+sentry-sdk
 sklearn
 SPARQLWrapper
 social-auth-app-django
 social-auth-core[azuread]
 syntok
+tensorflow
+tensorflow-hub
 tldextract
 textacy
 tqdm
 tweepy
+uWSGI
 wordsegment

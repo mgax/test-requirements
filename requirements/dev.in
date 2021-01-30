@@ -1,8 +1,25 @@
--c ./base.txt
+-c ./requirements.txt
 
+betamax
 black
+coverage
 django-debug-toolbar
+factory-boy
+fakeredis
 ipdb
+ipykernel
 ipython
-pywatchman
+ipython
+nbsphinx
 pip-tools
+pytest
+pytest-cov
+pytest-django
+pytest-forked
+pytest-xdist
+pywatchman
+recommonmark
+sphinx
+sphinx-markdown-tables
+sphinx-rtd-theme
+tblib

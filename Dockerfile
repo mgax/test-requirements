@@ -11,14 +11,8 @@ WORKDIR /app
 
 RUN pip install -U setuptools pip
 
-COPY requirements/nlp.txt requirements/
-RUN pip install --no-cache-dir -r requirements/nlp.txt
+RUN pip install --no-cache-dir nltk tensorflow-hub tensorflow numpy
 
 COPY requirements requirements
-RUN pip install --no-cache-dir \
-  -r requirements/nlp.txt \
-  -r requirements/base.txt \
-  -r requirements/dev.txt \
-  -r requirements/prod.txt \
-  -r requirements/tests.txt \
-  -r requirements/docs.txt
+RUN pip install --no-cache-dir -r requirements/requirements.txt
+RUN pip install --no-cache-dir -r requirements/dev.txt
