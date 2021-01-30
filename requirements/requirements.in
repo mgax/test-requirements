@@ -24,7 +24,7 @@ drf-nested-routers
 drf-yasg
 fake-useragent
 flask
-flower==0.9.5
+flower!=0.9.7
 ftfy
 gensim
 idna
@@ -56,5 +56,4 @@ textacy
 tqdm
 tweepy
 uWSGI
-vine==5.0.0
 wordsegment
