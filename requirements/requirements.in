@@ -56,4 +56,5 @@ textacy
 tqdm
 tweepy
 uWSGI
+vine==5.0.0
 wordsegment
