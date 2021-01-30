@@ -45,9 +45,7 @@ catalogue==1.0.0
 categorical-distance==1.9
     # via dedupe
 celery==5.0.5
-    # via
-    #   -r requirements.in
-    #   flower
+    # via -r requirements.in
 certifi==2020.12.5
     # via
     #   requests
@@ -194,8 +192,6 @@ flask==1.1.2
     # via -r requirements.in
 flatbuffers==1.12
     # via tensorflow
-flower==0.9.5
-    # via -r requirements.in
 ftfy==5.8
     # via -r requirements.in
 future==0.18.2
@@ -227,8 +223,6 @@ haversine==2.3.0
     # via dedupe
 highered==0.2.1
     # via dedupe
-humanize==3.2.0
-    # via flower
 idna==2.10
     # via
     #   -r requirements.in
@@ -347,8 +341,6 @@ preshed==3.0.5
     # via
     #   spacy
     #   thinc
-prometheus-client==0.8.0
-    # via flower
 prompt-toolkit==3.0.14
     # via click-repl
 protobuf==3.14.0
@@ -400,7 +392,6 @@ pytz==2020.5
     #   celery
     #   dateparser
     #   django
-    #   flower
     #   tzlocal
 pyyaml==5.4.1
     # via newspaper3k
@@ -540,8 +531,6 @@ tldextract==3.1.0
     #   newspaper3k
 toolz==0.11.1
     # via cytoolz
-tornado==6.1
-    # via flower
 tqdm==4.56.0
     # via
     #   -r requirements.in

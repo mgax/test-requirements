@@ -298,7 +298,6 @@ toml==0.10.2
     #   pytest
 tornado==6.1
     # via
-    #   -c ./requirements.txt
     #   ipykernel
     #   jupyter-client
 traitlets==4.3.3
