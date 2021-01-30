@@ -15,4 +15,3 @@ RUN pip install --no-cache-dir nltk tensorflow-hub tensorflow numpy
 
 COPY requirements requirements
 RUN pip install --no-cache-dir -r requirements/requirements.txt
-RUN pip install --no-cache-dir -r requirements/dev.txt
