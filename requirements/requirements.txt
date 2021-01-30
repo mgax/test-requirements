@@ -10,7 +10,7 @@ absl-py==0.11.0
     #   tensorflow
 affinegap==1.11
     # via dedupe
-amqp==5.0.5
+amqp==5.0.3
     # via kombu
 astunparse==1.6.3
     # via tensorflow
@@ -33,7 +33,7 @@ btrees==4.7.2
     # via
     #   dedupe
     #   zope.index
-cachetools==4.2.1
+cachetools==4.2.0
     # via
     #   -r requirements.in
     #   google-auth
@@ -118,7 +118,7 @@ defusedxml==0.6.0
     #   social-auth-core
 django-admin-rangefilter==0.6.4
     # via -r requirements.in
-django-cors-headers==3.7.0
+django-cors-headers==3.6.0
     # via -r requirements.in
 django-environ==0.4.5
     # via -r requirements.in
@@ -327,7 +327,7 @@ openpyxl==3.0.6
     # via -r requirements.in
 opt-einsum==3.3.0
     # via tensorflow
-packaging==20.9
+packaging==20.8
     # via drf-yasg
 pdfminer.six==20201018
     # via -r requirements.in
@@ -335,7 +335,7 @@ persistent==4.6.4
     # via
     #   btrees
     #   zope.index
-phonenumberslite==8.12.17
+phonenumberslite==8.12.16
     # via -r requirements.in
 pillow==8.1.0
     # via newspaper3k
@@ -562,7 +562,7 @@ uritemplate==3.0.1
     # via
     #   coreapi
     #   drf-yasg
-urllib3==1.26.3
+urllib3==1.26.2
     # via
     #   requests
     #   sentry-sdk
@@ -572,7 +572,7 @@ vine==5.0.0
     # via
     #   amqp
     #   celery
-wasabi==0.8.1
+wasabi==0.8.0
     # via
     #   spacy
     #   thinc
