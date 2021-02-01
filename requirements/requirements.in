@@ -32,7 +32,7 @@ lxml
 networkx
 newspaper3k
 nltk
-numpy
+numpy<1.20
 openpyxl
 pdfminer.six
 phonenumberslite
